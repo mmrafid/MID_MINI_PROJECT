@@ -4,7 +4,7 @@
 
     if($connection)
     {
-        echo "connection established";
+        //echo "connection established";
     }
     else{
         die("connection failed because ".mysqli_connect_error());
